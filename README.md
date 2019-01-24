@@ -200,9 +200,9 @@ Note: `cordova-android-support-gradle-release` will not work in Phonegap Build (
 
 ## Using the Cordova/Phonegap/Ionic CLI
 
-    $ cordova plugin add cordova.plugins.diagnostic
-    $ phonegap plugin add cordova.plugins.diagnostic
-    $ ionic cordova plugin add cordova.plugins.diagnostic
+    $ phonegap plugin add cordova.plugins.diagnostic --variable ANDROID_SUPPORT_V4_VERSION="26.+" --variable ANDROID_SUPPORT_V7_VERSION="26.+"
+    $ phonegap plugin add cordova.plugins.diagnostic --variable ANDROID_SUPPORT_V4_VERSION="26.+" --variable ANDROID_SUPPORT_V7_VERSION="26.
+    $ ionic cordova plugin add cordova.plugins.diagnostic --variable ANDROID_SUPPORT_V4_VERSION="26.+" --variable ANDROID_SUPPORT_V7_VERSION="26.
 
 For example, to install for the Android platform
 
